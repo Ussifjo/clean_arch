@@ -1,4 +1,5 @@
  abstract class Index{
  int? id;
- Index(this.id);
+ String title;
+ Index(this.id, this.title);
 }
